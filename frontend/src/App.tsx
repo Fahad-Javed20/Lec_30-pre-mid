@@ -1,14 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import StudentDashboard from "./components/StudentDashboard";
 
 function App() {
-  
-
   return (
     <>
-      
+      <StudentDashboard/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
