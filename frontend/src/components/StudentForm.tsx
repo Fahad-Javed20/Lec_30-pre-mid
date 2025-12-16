@@ -72,7 +72,6 @@ const StudentForm = ({ onAddStudent }: StudentFormProps) => {
           )}
         </div>
 
-        {/* City */}
         <div>
           <label className="block text-sm font-medium mb-1">City</label>
           <input
@@ -85,7 +84,6 @@ const StudentForm = ({ onAddStudent }: StudentFormProps) => {
           )}
         </div>
 
-        {/* Submit Button */}
         <button
           type="submit"
           className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition duration-200"
